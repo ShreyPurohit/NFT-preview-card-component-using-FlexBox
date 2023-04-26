@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(217, 54%, 11%);
+    align-items: center;
+    height: 95dvh;
+}
+
+.whole{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 0px 0px 5px 16px rgba(0,0,0,0.2);
+    border-radius: 0.5rem;
+    gap: 1rem;
+    height: 28rem;
+    width:18rem ;
+}
+
+
+img{
+    border-radius: 0.7rem;
+}
+
+.whole img:hover{
+    cursor: pointer;
+    fill: url(images/icon-view.svg);
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    width: 15rem;
+}
+
+.header{
+    color: hsl(0, 0%, 100%);
+    font-size: 0.6rem;
+    width: max-content;
+}
+
+.header :hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+div.res , p.para{
+    font-size: 0.8rem;
+}
+
+.res, .eth , .day{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.res{
+    justify-content: space-between;
+}
+
+.creator{
+    display: flex;
+    font-size: 0.8rem;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.creator img{
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor: none;
+}
+
+span.img{
+    border-radius: 50%;
+}
+
+hr{
+    border: none;
+    background-color: hsl(215, 32%, 27%);
+    height: 1px;
+}
+
+.namelink{
+    color:#e6f2f5;
+}
+
+.creator .namelink :hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.attribution{
+    position: absolute;
+    bottom: 5px;
+}
